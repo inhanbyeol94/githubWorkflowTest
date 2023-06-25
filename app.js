@@ -1,0 +1,11 @@
+const express = require('express');
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send('TEST');
+});
+
+app.listen(3000, (err) => {
+  if (err) return console.error(err);
+  console.log(3000);
+});
