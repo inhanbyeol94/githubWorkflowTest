@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
   res.send('TEST');
 });
 
-app.listen(3000, (err) => {
+app.listen(80, (err) => {
   if (err) return console.error(err);
-  console.log(3000);
+  console.log(80);
 });
